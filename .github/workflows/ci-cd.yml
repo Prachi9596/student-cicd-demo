@@ -23,7 +23,7 @@ jobs:
         run: |
           pip install pytest
 
-      - name: Run Tests
+      - name: Run Automated Tests
         run: |
           pytest
 
@@ -38,4 +38,4 @@ jobs:
 
       - name: Deploy Application
         run: |
-          echo "Application deployed successfully!"
+          echo "Student application deployed successfully!"
